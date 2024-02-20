@@ -3,6 +3,6 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/react-quiz-app",
+  base: "/react-quiz",
   plugins: [react()],
 });
