@@ -1,5 +1,8 @@
+import { useQuiz } from "../contexts/QuizContext";
+
 /* eslint-disable react/prop-types */
-function Options({ question, dispatch, answer }) {
+function Options({ question }) {
+  const { dispatch, answer } = useQuiz();
   return (
     <div className="options">
       {question.options.map((option, index) => {
